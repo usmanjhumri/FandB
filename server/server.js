@@ -13,7 +13,7 @@ app.use(express.static(join(resolve(), "server/dist")));
 // app.use(express.static("./dist"));
 app.use(urlencoded({ limit: "200md", extended: true }));
 
-// Model Import for chat and blogs post etc
+// Model Import for chat and blogs post etc this is
 
 //--------------.ENV CONFIG------------------//
 const MONGO_URI =
